@@ -1,0 +1,32 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+<h1 class="text-center my-4">Bienvenue sur la boutique MY.SHOP</h1>
+
+    {% if app.flashes %}
+        <div class="row">
+            <div class="col-8 mx-auto mt-3">
+                {% include 'include/_flashes.html.twig' %}
+            </div>
+        </div>
+    {% endif %}
+
+    {% for produit in produits %}
+        <div class="col-3 mx-2">
+            <div class="card" style="width: 18rem;">
+                <img src="{{ asset('uploads/' ~ produit.photo) }}" class="card-img-top" alt="une photo" style="object-fit: contain;" width="150" height="220">
+                <div class="card-body">
+                    <h5 class="card-title">{{ produit.title }}</h5>
+                    <p class="card-text">{{ produit.description | length > 31 ? produit.description | slice(0,31) ~ '...' : produit.description }}</p>
+                    <a href="#" class="col-12 btn btn-warning text-center"><i class="fa-solid fa-cart-plus"></i></a>
+                </div>
+            </div>
+        </div>
+    {% else %}
+        <h3 class="text-center text-white">La boutique est vide</h3>
+    {% endfor %}
+
+{% endblock %}

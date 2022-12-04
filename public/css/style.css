@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100&family=Noto+Serif:ital@0;1&display=swap');
+
+body{
+  font-family: 'Lato', sans-serif;
+  font-family: 'Noto Serif', serif;
+  font-size: 15px;
+  background-color: rgb(10, 98, 198);
+  
+}
+
+
+.nav-link{
+    color: #e2dfdb!important;
+    font-style: italic;
+    
+  }
+  
+  .nav-link:hover{
+    font-weight: bold;
+    background-color:rgb(10, 10, 0) !important;
+    border: solid #0e087b 5px;
+    border-radius: 15%;
+   
+  }
+  footer{
+    background-color: black;
+  }
+  .center{
+    justify-content: center;
+  }

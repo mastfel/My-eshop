@@ -1,0 +1,7 @@
+body {
+    background-color: rgb(146, 180, 219);
+}
+.img-thumbnail {
+
+    object-fit: cover;
+}

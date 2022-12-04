@@ -1,0 +1,13 @@
+/*!**************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].oneOf[1].use[1]!./assets/styles/app.css ***!
+  \**************************************************************************************************************/
+body {
+    background-color: rgb(146, 180, 219);
+}
+.img-thumbnail {
+
+    object-fit: cover;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmNzcyIsIm1hcHBpbmdzIjoiOzs7QUFBQTtJQUNJLG9DQUFvQztBQUN4QztBQUNBOztJQUVJLGlCQUFpQjtBQUNyQiIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL2Fzc2V0cy9zdHlsZXMvYXBwLmNzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYigxNDYsIDE4MCwgMjE5KTtcclxufVxyXG4uaW1nLXRodW1ibmFpbCB7XHJcblxyXG4gICAgb2JqZWN0LWZpdDogY292ZXI7XHJcbn1cclxuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9*/
